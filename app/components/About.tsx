@@ -21,9 +21,9 @@ const About: React.FC = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="mt-6 text-lg text-red-500"
         >
-          PyroDecor specializes in unforgettable events with premium pyrotechnics
-          and stunning decor. Our expert team ensures every celebration is truly magical,
-          with vibrant colors and unique setups to captivate your guests.
+          Welcome to Flare Frenzi, we are a one stop shop for all your event special effects needs. We specialise in pyrotechnics to transform any event into a magical and memorable moment. 
+
+Our effects displays will leave your guests with an unforgettable experience which will be talked about for years to come. Flare Frenzi has got everything you need from pyrotechnics to revolving smoke jets and much more! Feel free to contact us and watch as We Light Up Your Way!
         </motion.p>
       </div>
     </section>
