@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="text-5xl font-bold"
         >
-          Ignite Your Event with PyroDecor!
+          We Light Up Your Way!
         </motion.h1>
 
         <motion.p
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, delay: 1 }}
           className="text-lg mt-4 text-red-500"
         >
-          Premium Pyrotechnics and Stunning Decor for Unforgettable Experiences.
+          Professional Pyrotechnics and Stunning Decore Hire for an Unforgettable Experience
         </motion.p>
 
         {/* Call to Action Button */}
@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
           className="mt-8 px-6 py-3 bg-yellow-500 text-black font-bold rounded shadow-lg hover:bg-red-500 transition duration-300"
         >
-          Get Started
+          Learn More
         </motion.button>
       </div>
     </section>
