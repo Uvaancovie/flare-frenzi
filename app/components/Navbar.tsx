@@ -1,14 +1,13 @@
 // components/Navbar.tsx
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-black text-yellow-500 p-4 shadow-lg flex items-center justify-between">
       {/* Logo Section */}
       <div className="text-2xl font-bold text-red-500">
-        <Link href="/" className="text-red-500">
-          <img src="/logo2.jpg" alt="PyroDecor Logo" className="h-10" />
-        </Link>
+        <Image src="/logo2.jpg" alt="PyroDecor Logo" width={40} height={40} className="h-10" />
       </div>
 
       {/* Links Section */}

@@ -11,8 +11,12 @@ const services = [
 
 const Services: React.FC = () => {
   return (
-    <section className="bg-yellow-500 text-black py-20 px-6">
-      <div className="max-w-5xl mx-auto text-center">
+    <section className="relative bg-black text-yellow-500 py-20 px-6 overflow-hidden">
+      {/* Fireworks animation layer */}
+      <div className="absolute inset-0 z-0 fireworks-animation"></div>
+
+      {/* Content */}
+      <div className="max-w-5xl mx-auto text-center relative z-10">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -28,7 +32,7 @@ const Services: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: index * 0.3 }}
-              className="bg-black p-6 rounded-lg text-yellow-500"
+              className="bg-yellow-500 p-6 rounded-lg text-black shadow-lg"
             >
               <h3 className="text-2xl font-bold">{service.title}</h3>
               <p className="mt-4 text-red-500">{service.description}</p>

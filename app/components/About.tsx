@@ -13,7 +13,7 @@ const About: React.FC = () => {
           transition={{ duration: 1 }}
           className="text-4xl font-bold"
         >
-          About PyroDecor
+          About Flare Frenzi 
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
