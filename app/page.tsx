@@ -27,7 +27,7 @@ export default function Home() {
             image="/inside-firework.jpg" // Ensure this path is correct and the image is in the public directory
             title="Inside Fireworks"
             description="Bring the magic indoors with our premium inside fireworks, designed to add sparkle to any event safely."
-            price={199.99} // Change price to a number
+            price={`$${199.99}`} // Change price to a number
           />
         </div>
       </section>
