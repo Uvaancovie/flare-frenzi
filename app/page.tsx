@@ -6,13 +6,13 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Slideshow from './components/Slideshow';
 import ProductCard from './components/ProductCard';
-import Navbar from './components/Navbar';
+
 import ServicesGrid from './components/ServicesGrid';
 
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+     
       <Hero />
       <About />
       <ServicesGrid/>
