@@ -2,21 +2,22 @@
 
 import Hero from './components/Hero';
 import About from './components/About';
-import Services from './components/Services';
+
 import Contact from './components/Contact';
 import Slideshow from './components/Slideshow';
 import ProductCard from './components/ProductCard';
+import AnimatedBanner from './components/AnimatedBanner';
 
 import ServicesGrid from './components/ServicesGrid';
 
 export default function Home() {
   return (
     <main>
-     
+     <AnimatedBanner/>
       <Hero />
       <About />
       <ServicesGrid/>
-      <Services />
+      
       <Slideshow />
 
       {/* Product Section */}

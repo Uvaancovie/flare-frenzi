@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center text-yellow-500 p-6 max-w-xl">
+      <div className="relative z-10 text-center text-white-500 p-6 max-w-xl">
         <motion.h1
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          className="text-lg md:text-xl lg:text-2xl mt-4 text-red-500"
+          className="text-lg md:text-xl lg:text-2xl mt-4 text-white-500"
         >
           Professional Pyrotechnics and Stunning Decor Hire for an Unforgettable Experience
         </motion.p>

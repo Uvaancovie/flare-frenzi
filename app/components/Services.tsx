@@ -4,9 +4,26 @@
 import { motion } from 'framer-motion';
 
 const services = [
-  { title: "Fireworks Display", description: "Stunning fireworks to light up any occasion." },
-  { title: "Event Lighting", description: "Professional lighting to set the perfect mood." },
-  { title: "Decor Setup", description: "Breathtaking decor to make your event unforgettable." },
+  {
+    title: "💥 Pyrotechnics",
+    description: "We offer a variety of different pyrotechnic machines, from traditional vertical cold sparks to waterfall sprays from above. Contact us for any variation that you may require!"
+  },
+  {
+    title: "💨 Fog Machines",
+    description: "Our fog machines are water-based, delivering stunning visuals while keeping safety in mind."
+  },
+  {
+    title: "🎉 Confetti Blasts",
+    description: "What’s a celebration without a confetti blast? Perfect for baby gender reveals, birthdays, and weddings!"
+  },
+  {
+    title: "🫧 Bubble Machines",
+    description: "Bubble machines add a hint of enchantment to any event, perfect for guests of all ages."
+  },
+  {
+    title: "Decor Hire",
+    description: "We offer a wide variety of props and decor for hire. Browse our catalog on our social media accounts."
+  }
 ];
 
 const Services: React.FC = () => {

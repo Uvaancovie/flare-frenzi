@@ -5,10 +5,10 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  '/party1.jpeg', // Correct paths assuming images are in the public directory
-  '/party2.jpeg',
-  '/party3.jpeg',
-  '/party4.jpeg',
+  '/public/party1.jpeg', // Add the correct paths to your images here
+  '/public/party2.jpeg',
+  '/public/party3.jpeg',
+  '/public/party4.jpeg',
 ];
 
 const Slideshow: React.FC = () => {

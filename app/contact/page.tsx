@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function ContactPage() {
   return (
+    
     <section className="bg-black text-yellow-500 py-20 px-6 min-h-screen">
       <div className="max-w-5xl mx-auto text-center mb-12">
         <motion.h1
