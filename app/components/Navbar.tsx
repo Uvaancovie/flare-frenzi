@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-black text-yellow-500 p-4 shadow-lg flex items-center justify-between">
       {/* Logo Section */}
       <div className="text-2xl font-bold text-red-500">
-        <Image src="/logo2.jpg" alt="PyroDecor Logo" width={40} height={40} className="h-10" />
+        <Image src="/logo2.JPG" alt="PyroDecor Logo" width={40} height={40} className="h-10" />
       </div>
 
       {/* Links Section */}
