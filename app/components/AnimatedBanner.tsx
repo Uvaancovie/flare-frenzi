@@ -16,7 +16,7 @@ const AnimatedBanner: React.FC = () => {
     <div className="bg-yellow-500 text-black py-0.5">
       <div className="container mx-auto text-center">
         {services.map((service, index) => (
-          <Link key={index} href={service.href} className="text-lg font-semibold mx-2 hover:text-red-500">
+          <Link key={index} href={service.href} className="text-sm font-semibold mx-1 hover:text-red-500">
             {service.name}
           </Link>
         ))}
