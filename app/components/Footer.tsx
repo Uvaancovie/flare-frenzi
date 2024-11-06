@@ -1,6 +1,6 @@
 // components/Footer.tsx
 
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -32,9 +32,7 @@ export default function Footer() {
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
                 <FaFacebookF size={24} />
               </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
-                <FaTwitter size={24} />
-              </a>
+              
               <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
                 <FaInstagram size={24} />
               </a>
