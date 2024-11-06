@@ -14,7 +14,6 @@ export default function ContactPage() {
     e.preventDefault();
     setLoading(true);
 
-    // Display success message (simulating a submission)
     setTimeout(() => {
       setSuccess(true);
       setName('');
@@ -98,13 +97,14 @@ export default function ContactPage() {
               </li>
             </ul>
 
-            {/* Google Map for Flare Frenzi Location */}
+            {/* Updated Google Map for Flare Frenzi Location */}
             <div className="mt-8">
               <iframe
                 className="w-full h-64 rounded-lg border-4 border-red-500 transition-all duration-500 hover:scale-105"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.401776478053!2d30.9765865!3d-29.9148564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa1125f3e229%3A0x2a1d5fa1d9eec991!2sUnit%2029%20Jacobs%20Industrial%20Park%2C%20166%20Bluff%20Rd%2C%20Jacobs%2C%20Durban%2C%204052!5e0!3m2!1sen!2sza!4v1695826101837!5m2!1sen!2sza"
-                allowFullScreen={true}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.9877498614887!2d31.004225899999994!3d-29.7201141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef704623b566757%3A0xa55e3e5598c5d83a!2sKruger%20Pl%2C%20Phoenix%20Industrial%2C%20Phoenix%2C%204156!5e0!3m2!1sen!2sza!4v1730931313514!5m2!1sen!2sza"
+                allowFullScreen
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
                 title="Flare Frenzi Location"
               />
             </div>
