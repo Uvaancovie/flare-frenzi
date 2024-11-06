@@ -1,7 +1,7 @@
 // components/AnimatedBanner.tsx
 "use client";
 
-const servicesText = "• Pyrotechnics  • Fog Machines  • Confetti Blasts  • Bubble Machines • ";
+const servicesText = "• Pyrotechnics  • Fog Machines  • Confetti Blasts  • Bubble Machines • Decor Hire • ";
 
 const AnimatedBanner: React.FC = () => {
   return (

@@ -33,7 +33,7 @@ export default function FlareFrenziCarousel() {
   return (
     <section className="py-16 bg-black text-yellow-500">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-yellow-500 mb-12">Event Highlights</h2>
+        <h2 className="text-4xl font-bold text-center text-yellow-500 mb-12"></h2>
 
         {/* Splide Carousel */}
         <Splide
