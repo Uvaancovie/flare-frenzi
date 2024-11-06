@@ -32,18 +32,18 @@ export default function ContactPage() {
         {/* Contact Form and Details */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
-          <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold text-red-600 mb-4">Send us a message</h2>
+          <div className="bg-black border border-yellow-500 p-8 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold text-red-500 mb-4">Send us a message</h2>
 
             {/* Display Success Message */}
             {success && <p className="text-green-500 mb-4">Your message has been sent successfully!</p>}
 
             <form className="space-y-4" onSubmit={handleSubmit}>
               <div>
-                <label className="block text-sm font-bold mb-2 text-white">Name</label>
+                <label className="block text-sm font-bold mb-2 text-yellow-500">Name</label>
                 <input
                   type="text"
-                  className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-red-600"
+                  className="w-full p-3 bg-black text-yellow-500 border border-gray-700 rounded-lg focus:outline-none focus:border-red-500"
                   placeholder="Your Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -51,10 +51,10 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold mb-2 text-white">Email</label>
+                <label className="block text-sm font-bold mb-2 text-yellow-500">Email</label>
                 <input
                   type="email"
-                  className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-red-600"
+                  className="w-full p-3 bg-black text-yellow-500 border border-gray-700 rounded-lg focus:outline-none focus:border-red-500"
                   placeholder="Your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -62,9 +62,9 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold mb-2 text-white">Message</label>
+                <label className="block text-sm font-bold mb-2 text-yellow-500">Message</label>
                 <textarea
-                  className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-red-600"
+                  className="w-full p-3 bg-black text-yellow-500 border border-gray-700 rounded-lg focus:outline-none focus:border-red-500"
                   rows={5}
                   placeholder="Your Message"
                   value={message}
@@ -74,7 +74,7 @@ export default function ContactPage() {
               </div>
               <button
                 type="submit"
-                className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-bold transition-colors duration-300"
+                className="w-full bg-red-500 hover:bg-red-600 text-yellow-500 py-3 rounded-lg font-bold transition-colors duration-300"
                 disabled={loading}
               >
                 {loading ? 'Sending...' : 'Send Message'}
@@ -83,15 +83,15 @@ export default function ContactPage() {
           </div>
 
           {/* Flare Frenzi Contact Details */}
-          <div className="bg-gray-800 p-8 rounded-lg shadow-lg text-center">
-            <h2 className="text-2xl font-bold text-red-600 mb-4">Flare Frenzi</h2>
-            <p className="text-gray-300 mb-4">Feel free to reach out via phone, email, or visit our location:</p>
-            <ul className="text-gray-300 space-y-3">
+          <div className="bg-black border border-yellow-500 p-8 rounded-lg shadow-lg text-center">
+            <h2 className="text-2xl font-bold text-red-500 mb-4">Flare Frenzi</h2>
+            <p className="text-yellow-500 mb-4">Feel free to reach out via phone, email, or visit our location:</p>
+            <ul className="text-yellow-500 space-y-3">
               <li>
                 <strong>Telephone:</strong> 071 880 1007
               </li>
               <li>
-                <strong>Email:</strong> <a href="mailto:flarefrenzi@gmail.com" className="text-red-600 hover:text-red-700">flarefrenzi@gmail.com</a>
+                <strong>Email:</strong> <a href="mailto:flarefrenzi@gmail.com" className="text-red-500 hover:text-red-600">flarefrenzi@gmail.com</a>
               </li>
               <li>
                 <strong>Address:</strong> 2 Kruger Place
@@ -101,7 +101,7 @@ export default function ContactPage() {
             {/* Google Map for Flare Frenzi Location */}
             <div className="mt-8">
               <iframe
-                className="w-full h-64 rounded-lg border-4 border-red-600 transition-all duration-500 hover:scale-105"
+                className="w-full h-64 rounded-lg border-4 border-red-500 transition-all duration-500 hover:scale-105"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.401776478053!2d30.9765865!3d-29.9148564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa1125f3e229%3A0x2a1d5fa1d9eec991!2sUnit%2029%20Jacobs%20Industrial%20Park%2C%20166%20Bluff%20Rd%2C%20Jacobs%2C%20Durban%2C%204052!5e0!3m2!1sen!2sza!4v1695826101837!5m2!1sen!2sza"
                 allowFullScreen={true}
                 loading="lazy"
