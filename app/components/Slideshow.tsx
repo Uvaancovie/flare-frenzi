@@ -5,12 +5,14 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  '/party1.jpeg', // Correct paths to images without /public
+  // Correct paths to images without /public
   '/party2.jpeg',
   '/party3.jpeg',
-  '/party4.jpeg',
+  
+  '/darkie-vit.jpeg',
+  '/pekkie.jpeg',
+  '/white.jpeg',
 ];
-
 const Slideshow: React.FC = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
