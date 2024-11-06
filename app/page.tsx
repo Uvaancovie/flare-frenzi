@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Slideshow from './components/Slideshow';
 import Footer from './components/Footer';
 import AnimatedBanner from './components/AnimatedBanner';
-import FullSectionImage from './components/FullSectionImage';
+
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <About />
       <Slideshow />
 
-      <FullSectionImage/>
+      
      
 
       <Contact />
