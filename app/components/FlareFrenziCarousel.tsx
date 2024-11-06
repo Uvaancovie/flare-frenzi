@@ -10,22 +10,22 @@ const services = [
   {
     image: '/white.jpeg',
     title: 'Confetti Blasts',
-    description: 'Add festive cheer to any event with our vibrant confetti blasts, perfect for celebrations and parties.',
+    description: 'What’s a celebration without a confetti blast? Confetti blasts are perfect for baby gender reveals, birthdays and weddings!',
   },
   {
     image: '/darkie-vit.jpeg',
     title: 'Fog Machines',
-    description: 'Create a mystical atmosphere with our safe, water-based fog machines, ideal for any setting.',
+    description: 'Our fog machines are water based which allows us to deliver stunning visuals whilst keeping safety in mind. We offer low fog blasts and jet fog blasts.',
   },
   {
     image: '/pyro.jpeg',
     title: 'Pyrotechnics',
-    description: 'Make a bold statement with stunning pyrotechnic displays, customizable for any event.',
+    description: 'We offer a variety of different pyrotechnic machines such as traditional cold up sparks, revolving cold up sparks and waterfall cold sparks. Contact us for any variation that you may require!',
   },
   {
     image: '/bubbles.jpeg',
     title: 'Bubble Machines',
-    description: 'Add a magical touch with our bubble machines, suitable for guests of all ages.',
+    description: 'Bubble machines are a great addition to any event to deliver a hint of enchantment.',
   },
 ];
 
