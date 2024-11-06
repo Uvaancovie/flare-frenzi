@@ -1,64 +1,101 @@
-// components/Services.tsx
+// services/page.tsx
 "use client";
 
-import { motion } from 'framer-motion';
+import React from 'react';
+import { FaFire, FaCloud, FaBirthdayCake, FaMagic, FaCouch } from 'react-icons/fa'; // Importing icons for event services
+import { IconType } from 'react-icons'; // Importing IconType from 'react-icons'
+import FlareFrenziCarousel from '../components/FlareFrenziCarousel'; 
+
+interface ServiceCardProps {
+  title: string;
+  items: string[];
+  Icon: IconType;
+}
+
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, items, Icon }) => (
+  <div className="border border-gray-300 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-yellow-500 group">
+    <div className="flex items-center space-x-4 mb-4">
+      <Icon className="text-yellow-500 text-4xl transition-all duration-300 group-hover:scale-110 group-hover:rotate-6" />
+      <h3 className="text-2xl font-semibold text-yellow-500">{title}</h3>
+    </div>
+    <ul className="mt-4 space-y-2 text-white">
+      {items.map((item, index) => (
+        <li key={index} className="flex items-start">
+          <span className="text-yellow-500 mr-2">•</span>
+          {item}
+        </li>
+      ))}
+    </ul>
+  </div>
+);
 
 const services = [
   {
-    title: "💥 Pyrotechnics",
-    description: "We offer a variety of different pyrotechnic machines, from traditional vertical cold sparks to waterfall sprays from above. Contact us for any variation that you may require!"
+    title: "Pyrotechnics",
+    items: [
+      "Vertical cold sparks",
+      "Waterfall sprays from above",
+      "Custom pyrotechnic effects",
+    ],
+    Icon: FaFire,
   },
   {
-    title: "💨 Fog Machines",
-    description: "Our fog machines are water-based, delivering stunning visuals while keeping safety in mind."
+    title: "Fog Machines",
+    items: [
+      "Water-based fog for safety",
+      "Adds stunning visual effects",
+      "Perfect for indoor and outdoor events",
+    ],
+    Icon: FaCloud,
   },
   {
-    title: "🎉 Confetti Blasts",
-    description: "What’s a celebration without a confetti blast? Perfect for baby gender reveals, birthdays, and weddings!"
+    title: "Confetti Blasts",
+    items: [
+      "Ideal for celebrations",
+      "Perfect for gender reveals, birthdays, and weddings",
+      "Adds a festive touch",
+    ],
+    Icon: FaBirthdayCake,
   },
   {
-    title: "🫧 Bubble Machines",
-    description: "Bubble machines add a hint of enchantment to any event, perfect for guests of all ages."
+    title: "Bubble Machines",
+    items: [
+      "Creates enchanting atmosphere",
+      "Perfect for guests of all ages",
+      "Adds magic to any event",
+    ],
+    Icon: FaMagic,
   },
   {
     title: "Decor Hire",
-    description: "We offer a wide variety of props and decor for hire. Browse our catalog on our social media accounts."
-  }
+    items: [
+      "Wide variety of props",
+      "Themed decor options",
+      "Available on our social media catalog",
+    ],
+    Icon: FaCouch,
+  },
 ];
 
-const Services: React.FC = () => {
+export default function ServicesPage() {
   return (
-    <section className="relative bg-black text-yellow-500 py-20 px-6 overflow-hidden">
-      {/* Fireworks animation layer */}
-      <div className="absolute inset-0 z-0 fireworks-animation"></div>
+    <>
+      {/* Carousel Section */}
+      <FlareFrenziCarousel />
 
-      {/* Content */}
-      <div className="max-w-5xl mx-auto text-center relative z-10">
-        <motion.h2
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-4xl font-bold text-red-500"
-        >
-          Our Services
-        </motion.h2>
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: index * 0.3 }}
-              className="bg-yellow-500 p-6 rounded-lg text-black shadow-lg"
-            >
-              <h3 className="text-2xl font-bold">{service.title}</h3>
-              <p className="mt-4 text-red-500">{service.description}</p>
-            </motion.div>
-          ))}
+      {/* Services Grid Section */}
+      <section className="py-16 bg-gradient-to-b from-black to-gray-900 text-yellow-500">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold text-yellow-500 text-center mb-12 animate-fade-in">
+            Our Services
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in-up">
+            {services.map((service, index) => (
+              <ServiceCard key={index} {...service} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
-};
-
-export default Services;
+}
