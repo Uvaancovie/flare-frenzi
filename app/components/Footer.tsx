@@ -23,7 +23,7 @@ export default function Footer() {
                 </a>
               </p>
               <p className="text-gray-400 mb-4">
-                <strong>Address:</strong> 2 Kruger Place
+                <strong>Address:</strong> 2 Kruger Place, Phoenix Industrial Park
               </p>
             </div>
 

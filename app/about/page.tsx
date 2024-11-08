@@ -32,9 +32,8 @@ export default function AboutPage() {
               transition={{ duration: 1, delay: 0.5 }}
               className="text-lg text-yellow-500 leading-relaxed"
             >
-              Flare Frenzi brings your events to life with unforgettable pyrotechnic displays,
-              breathtaking decor, and magical effects. We’re dedicated to transforming ordinary
-              occasions into extraordinary experiences, tailored to your vision.
+             Flare Frenzi is  based in Durban and with our wide range of event enhancements we create an atmosphere that’s nothing short of magical.
+             With safety, creativity, and your satisfaction as our top priorities, we work closely with you to ensure every detail of your event is flawless. 
             </motion.p>
 
             <motion.p
@@ -43,9 +42,7 @@ export default function AboutPage() {
               transition={{ duration: 1, delay: 1 }}
               className="text-lg text-red-500 leading-relaxed"
             >
-              From spark shows and fog machines to confetti blasts and bubble machines,
-              Flare Frenzi offers a comprehensive range of event enhancements to create an
-              atmosphere that’s nothing short of magical.
+              Flare Frenzi is more than just pyrotechnics – it’s about creating moments that leave lasting memories for you and your guests. We’re dedicated to transforming ordinary occasions into extraordinary experiences, tailored to your vision.
             </motion.p>
 
             <motion.p
@@ -54,10 +51,7 @@ export default function AboutPage() {
               transition={{ duration: 1, delay: 1.5 }}
               className="text-lg text-yellow-500 leading-relaxed"
             >
-              With safety, creativity, and your satisfaction as our top priorities, we work
-              closely with you to ensure every detail of your event is flawless. Flare Frenzi
-              is more than just pyrotechnics – it’s about creating moments that leave lasting
-              memories for you and your guests.
+             We Light Your Way!
             </motion.p>
           </div>
 

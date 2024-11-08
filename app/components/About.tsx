@@ -25,8 +25,9 @@ const About: React.FC = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-lg leading-relaxed text-red-500"
           >
-            Welcome to Flare Frenzi, your one-stop shop for all event special effects needs! 
-            We specialize in pyrotechnics to transform any event into a magical and memorable moment. 
+          Flare Frenzi is  based in Durban and with our wide range of event enhancements we create an atmosphere that’s nothing short of magical.
+          With safety, creativity, and your satisfaction as our top priorities, we work closely with you to ensure every detail of your event is flawless. 
+
           </motion.p>
 
           <motion.p
@@ -35,9 +36,9 @@ const About: React.FC = () => {
             transition={{ duration: 1, delay: 0.7 }}
             className="text-lg leading-relaxed text-yellow-500"
           >
-            Our effects displays leave your guests with an unforgettable experience that will be talked about for years. 
-            From pyrotechnics to revolving smoke jets, Flare Frenzi has everything to light up your way! 
-            Feel free to contact us to make your next event truly unforgettable.
+           Flare Frenzi is more than just pyrotechnics – it’s about creating moments that leave lasting memories for you and your guests. We’re dedicated to transforming ordinary occasions into extraordinary experiences, tailored to your vision.
+           <br />
+           We Light Your Way!
           </motion.p>
         </div>
 

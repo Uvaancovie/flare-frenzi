@@ -93,7 +93,7 @@ export default function ContactPage() {
                 <strong>Email:</strong> <a href="mailto:flarefrenzi@gmail.com" className="text-red-500 hover:text-red-600">flarefrenzi@gmail.com</a>
               </li>
               <li>
-                <strong>Address:</strong> 2 Kruger Place
+                <strong>Address:</strong> 2 Kruger Place , Phoenix Industrial Park
               </li>
             </ul>
 
