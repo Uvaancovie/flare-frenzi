@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const services = [
   {
-    title: "💥 Pyrotechnics",
+    title: "💥 Cold Sparks",
     description: "We offer a variety of different pyrotechnic machines, from traditional vertical cold sparks to waterfall sprays from above. Contact us for any variation that you may require!"
   },
   {

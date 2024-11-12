@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, delay: 1 }}
           className="text-lg md:text-xl lg:text-2xl mt-4 text-white"
         >
-          Professional Pyrotechnics and Stunning Decor Hire for an Unforgettable Experience
+          Professional Cold Sparks and Stunning Decor Hire for an Unforgettable Experience
         </motion.p>
 
         {/* Call to Action Button */}
