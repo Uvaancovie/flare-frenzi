@@ -25,8 +25,12 @@ const About: React.FC = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-lg leading-relaxed text-red-500"
           >
-          Flare Frenzi is  based in Durban and with our wide range of event enhancements we create an atmosphere that’s nothing short of magical.
-          With safety, creativity, and your satisfaction as our top priorities, we work closely with you to ensure every detail of your event is flawless. 
+        Flare Frenzi is  based in Durban and with our wide range of event enhancements we create an atmosphere that’s nothing short of magical.
+With safety, creativity, and your satisfaction as our top priorities, we work closely with you to ensure every detail of your event is flawless. 
+
+
+
+
 
           </motion.p>
 
@@ -36,7 +40,9 @@ const About: React.FC = () => {
             transition={{ duration: 1, delay: 0.7 }}
             className="text-lg leading-relaxed text-yellow-500"
           >
-           Flare Frenzi is more than just pyrotechnics – it’s about creating moments that leave lasting memories for you and your guests. We’re dedicated to transforming ordinary occasions into extraordinary experiences, tailored to your vision.
+        Flare Frenzi is more than just special effects– it’s about creating moments that leave lasting memories for you and your guests. We’re dedicated to transforming ordinary occasions into extraordinary experiences, tailored to your vision.
+
+We Light Up Your Way!
            <br />
            We Light Your Way!
           </motion.p>
