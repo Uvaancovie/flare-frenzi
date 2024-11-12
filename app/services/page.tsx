@@ -27,7 +27,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, Icon, id,
 const services = [
   {
     id: "cold sparks",
-    title: "Pyrotechnics",
+    title: "Cold Sparks",
     description: "We offer a variety of different pyrotechnic machines such as traditional cold up sparks, revolving cold up sparks, and waterfall cold sparks. Contact us for any variation that you may require!",
     Icon: FaFire,
   },
