@@ -4,7 +4,7 @@
 import Link from 'next/link';
 
 const services = [
-  { name: "Pyrotechnics", href: "/services#pyrotechnics" },
+  { name: "Cold Sparks", href: "/services#pyrotechnics" },
   { name: "Fog Machines", href: "/services#fog-machines" },
   { name: "Confetti Blasts", href: "/services#confetti-blasts" },
 ];

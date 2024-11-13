@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
         </motion.p>
 
         {/* Call to Action Button */}
-        <Link href="/about" passHref>
+        <Link href="/services" passHref>
           <motion.button
             onHoverStart={() => setHover(true)}
             onHoverEnd={() => setHover(false)}

@@ -29,7 +29,7 @@ export default function Footer() {
 
             {/* Social Media Links */}
             <div className="flex justify-center space-x-6 text-gray-400">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
+              <a href="https://www.facebook.com/profile.php?id=61568742925016&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
                 <FaFacebookF size={24} />
               </a>
               

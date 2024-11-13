@@ -20,7 +20,7 @@ const services = [
   {
     image: '/pyro.jpeg',
     title: 'Cold Sparks',
-    description: 'We offer a variety of different pyrotechnic machines such as traditional cold up sparks, revolving cold up sparks and waterfall cold sparks. Contact us for any variation that you may require!',
+    description: 'We offer a variety of different cold sparks machines such as traditional cold up sparks, revolving cold up sparks and waterfall cold sparks. Contact us for any variation that you may require!',
   },
   {
     image: '/bubbles.jpeg',
