@@ -25,8 +25,9 @@ const About: React.FC = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-lg leading-relaxed text-red-500"
           >
-        Flare Frenzi is  based in Durban and with our wide range of event enhancements we create an atmosphere that’s nothing short of magical.
-With safety, creativity, and your satisfaction as our top priorities, we work closely with you to ensure every detail of your event is flawless. 
+       Welcome to Flare Frenzi, we are a one stop shop for all your event special effects needs. We specialise in cold spark machines to transform any event into a magical and memorable moment. 
+
+Our effects displays will leave your guests with an unforgettable experience which will be talked about for years to come. Flare Frenzi has got everything you need from cold spark showers to revolving smoke jets and much more! Feel free to contact us and watch as We Light Up Your Way!
 
 
 

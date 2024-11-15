@@ -8,7 +8,7 @@ const services = [
   {
     title: "Cold Sparks",
     description:
-      "We offer a variety of pyrotechnic machines, from traditional vertical cold sparks to waterfall sprays from above.",
+      "We offer a variety of cold spark machines, from traditional vertical cold sparks to waterfall sprays from above.",
     icon: <FaFire className="text-4xl text-red-500" />,
   },
   {

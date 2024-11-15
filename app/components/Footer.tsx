@@ -33,7 +33,7 @@ export default function Footer() {
                 <FaFacebookF size={24} />
               </a>
               
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
+              <a href="https://www.instagram.com/flare_frenzi?igsh=MThlZG5jbW1ybDk2ZQ==" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
                 <FaInstagram size={24} />
               </a>
             </div>
